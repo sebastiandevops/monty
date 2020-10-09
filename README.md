@@ -1,6 +1,6 @@
 # 0x19. C - Stacks, Queues - LIFO, FIFO
 
-Foundations - Low-level programming & Algorithm ― Data structures and Algorithms
+## Foundations - Low-level programming & Algorithm ― Data structures and Algorithms
 
 ## Learning Objectives
 
@@ -14,7 +14,7 @@ General
 	What are the most common use cases of stacks and queues
 	What is the proper way to use global variables
 
-### Requirements
+## Requirements
 ### General
 
 	Allowed editors: vi, vim, emacs
@@ -31,13 +31,13 @@ General
 	All your header files should be include guarded
 	You are expected to do the tasks in the order shown in the project
 
-### Github
+## Github
 
 There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.
 More Info
 Data structures
 
-Please use the following data structures for this project. Don’t forget to include them in your header file.
+### Please use the following data structures for this project. Don’t forget to include them in your header file.
 
 ```
 /**
@@ -71,9 +71,9 @@ Please use the following data structures for this project. Don’t forget to inc
 			void (*f)(stack_t **stack, unsigned int line_number);
 	} instruction_t;
 ```
-### Compilation & Output
+## Compilation & Output
 
-Your code will be compiled this way:
+### Your code will be compiled this way:
 ```
 $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 ```
@@ -81,16 +81,16 @@ Any output must be printed on stdout
 Any error message must be printed on stderr
 Here is a link to a GitHub repository that could help you making sure your errors are printed on stderr
 
-### Tests
+## Tests
 
 We strongly encourage you to work all together on a set of tests
 The Monty language
 
-### The Monty language
+## The Monty language
 
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
-#### Monty byte code files
+### Monty byte code files
 
 Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
 ```
@@ -126,7 +126,7 @@ $
 pall This is the end of our program. Monty is awesome!$
 julien@ubuntu:~/monty$
 ```
-The monty program
+## The monty program
 
 	Usage: monty file
 		where file is the path to the file containing Monty byte code
